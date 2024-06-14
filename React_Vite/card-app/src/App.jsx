@@ -67,6 +67,7 @@ function App() {
 
 const project = projectData.map(item => (
           <Project 
+          key={item.id}
           name={item.name} 
           url={item.imageurl} 
           cause={item.cause}
